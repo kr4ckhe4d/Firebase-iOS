@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CDCC93B1C8FF44B0026DADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC93A1C8FF44B0026DADD /* main.m */; };
+		7CDCC93E1C8FF44B0026DADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC93D1C8FF44B0026DADD /* AppDelegate.m */; };
+		7CDCC9411C8FF44B0026DADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC9401C8FF44B0026DADD /* ViewController.m */; };
+		7CDCC9441C8FF44B0026DADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCC9421C8FF44B0026DADD /* Main.storyboard */; };
+		7CDCC9471C8FF44B0026DADD /* SmartSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC9451C8FF44B0026DADD /* SmartSearch.xcdatamodeld */; };
+		7CDCC9491C8FF44B0026DADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCC9481C8FF44B0026DADD /* Assets.xcassets */; };
+		7CDCC94C1C8FF44B0026DADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDCC94A1C8FF44B0026DADD /* LaunchScreen.storyboard */; };
+		7CDCC9551C8FF49D0026DADD /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC9541C8FF49D0026DADD /* CoreDataStack.m */; };
+		7CDCC95A1C8FFE230026DADD /* School+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC9571C8FFE230026DADD /* School+CoreDataProperties.m */; };
+		7CDCC95B1C8FFE230026DADD /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC9591C8FFE230026DADD /* School.m */; };
+		7CDCC98B1C9035520026DADD /* FirebaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDCC98A1C9035520026DADD /* FirebaseViewController.m */; };
+		F99D2AA76FD5995B2064AE9C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5383017A348862712FD14C01 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5383017A348862712FD14C01 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A83DF4B8B22E990D05C11E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7CDCC9361C8FF44B0026DADD /* SmartSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDCC93A1C8FF44B0026DADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDCC93C1C8FF44B0026DADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CDCC93D1C8FF44B0026DADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CDCC93F1C8FF44B0026DADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CDCC9401C8FF44B0026DADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CDCC9431C8FF44B0026DADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CDCC9461C8FF44B0026DADD /* SmartSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartSearch.xcdatamodel; sourceTree = "<group>"; };
+		7CDCC9481C8FF44B0026DADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CDCC94B1C8FF44B0026DADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CDCC94D1C8FF44B0026DADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDCC9531C8FF49D0026DADD /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		7CDCC9541C8FF49D0026DADD /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		7CDCC9561C8FFE230026DADD /* School+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "School+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7CDCC9571C8FFE230026DADD /* School+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "School+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7CDCC9581C8FFE230026DADD /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		7CDCC9591C8FFE230026DADD /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		7CDCC9891C9035520026DADD /* FirebaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseViewController.h; sourceTree = "<group>"; };
+		7CDCC98A1C9035520026DADD /* FirebaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseViewController.m; sourceTree = "<group>"; };
+		92705B835FBDDDBE895CB959 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDCC9331C8FF44B0026DADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99D2AA76FD5995B2064AE9C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7902585817D018AFA4C8DF2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5383017A348862712FD14C01 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CDCC92D1C8FF44B0026DADD = {
+			isa = PBXGroup;
+			children = (
+				7CDCC9561C8FFE230026DADD /* School+CoreDataProperties.h */,
+				7CDCC9571C8FFE230026DADD /* School+CoreDataProperties.m */,
+				7CDCC9581C8FFE230026DADD /* School.h */,
+				7CDCC9591C8FFE230026DADD /* School.m */,
+				7CDCC9381C8FF44B0026DADD /* SmartSearch */,
+				7CDCC9371C8FF44B0026DADD /* Products */,
+				9D62DABF159E81F996F8657D /* Pods */,
+				7902585817D018AFA4C8DF2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDCC9371C8FF44B0026DADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDCC9361C8FF44B0026DADD /* SmartSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDCC9381C8FF44B0026DADD /* SmartSearch */ = {
+			isa = PBXGroup;
+			children = (
+				7CDCC9531C8FF49D0026DADD /* CoreDataStack.h */,
+				7CDCC9541C8FF49D0026DADD /* CoreDataStack.m */,
+				7CDCC93C1C8FF44B0026DADD /* AppDelegate.h */,
+				7CDCC93D1C8FF44B0026DADD /* AppDelegate.m */,
+				7CDCC93F1C8FF44B0026DADD /* ViewController.h */,
+				7CDCC9401C8FF44B0026DADD /* ViewController.m */,
+				7CDCC9891C9035520026DADD /* FirebaseViewController.h */,
+				7CDCC98A1C9035520026DADD /* FirebaseViewController.m */,
+				7CDCC9421C8FF44B0026DADD /* Main.storyboard */,
+				7CDCC9481C8FF44B0026DADD /* Assets.xcassets */,
+				7CDCC94A1C8FF44B0026DADD /* LaunchScreen.storyboard */,
+				7CDCC94D1C8FF44B0026DADD /* Info.plist */,
+				7CDCC9451C8FF44B0026DADD /* SmartSearch.xcdatamodeld */,
+				7CDCC9391C8FF44B0026DADD /* Supporting Files */,
+			);
+			path = SmartSearch;
+			sourceTree = "<group>";
+		};
+		7CDCC9391C8FF44B0026DADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CDCC93A1C8FF44B0026DADD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D62DABF159E81F996F8657D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92705B835FBDDDBE895CB959 /* Pods.debug.xcconfig */,
+				56A83DF4B8B22E990D05C11E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDCC9351C8FF44B0026DADD /* SmartSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDCC9501C8FF44B0026DADD /* Build configuration list for PBXNativeTarget "SmartSearch" */;
+			buildPhases = (
+				0EC7E73BFD540E3FCE037A33 /* Check Pods Manifest.lock */,
+				7CDCC9321C8FF44B0026DADD /* Sources */,
+				7CDCC9331C8FF44B0026DADD /* Frameworks */,
+				7CDCC9341C8FF44B0026DADD /* Resources */,
+				F8EA5445ABDEB1203236936E /* Embed Pods Frameworks */,
+				158087CBF808065D8D902DC9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSearch;
+			productName = SmartSearch;
+			productReference = 7CDCC9361C8FF44B0026DADD /* SmartSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDCC92E1C8FF44B0026DADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Appmonkeyz;
+				TargetAttributes = {
+					7CDCC9351C8FF44B0026DADD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7CDCC9311C8FF44B0026DADD /* Build configuration list for PBXProject "SmartSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CDCC92D1C8FF44B0026DADD;
+			productRefGroup = 7CDCC9371C8FF44B0026DADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDCC9351C8FF44B0026DADD /* SmartSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDCC9341C8FF44B0026DADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDCC94C1C8FF44B0026DADD /* LaunchScreen.storyboard in Resources */,
+				7CDCC9491C8FF44B0026DADD /* Assets.xcassets in Resources */,
+				7CDCC9441C8FF44B0026DADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC7E73BFD540E3FCE037A33 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		158087CBF808065D8D902DC9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8EA5445ABDEB1203236936E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDCC9321C8FF44B0026DADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDCC9551C8FF49D0026DADD /* CoreDataStack.m in Sources */,
+				7CDCC95A1C8FFE230026DADD /* School+CoreDataProperties.m in Sources */,
+				7CDCC9411C8FF44B0026DADD /* ViewController.m in Sources */,
+				7CDCC98B1C9035520026DADD /* FirebaseViewController.m in Sources */,
+				7CDCC95B1C8FFE230026DADD /* School.m in Sources */,
+				7CDCC9471C8FF44B0026DADD /* SmartSearch.xcdatamodeld in Sources */,
+				7CDCC93E1C8FF44B0026DADD /* AppDelegate.m in Sources */,
+				7CDCC93B1C8FF44B0026DADD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CDCC9421C8FF44B0026DADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDCC9431C8FF44B0026DADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDCC94A1C8FF44B0026DADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDCC94B1C8FF44B0026DADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDCC94E1C8FF44B0026DADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7CDCC94F1C8FF44B0026DADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDCC9511C8FF44B0026DADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92705B835FBDDDBE895CB959 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkeyz.SmartSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CDCC9521C8FF44B0026DADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A83DF4B8B22E990D05C11E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkeyz.SmartSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDCC9311C8FF44B0026DADD /* Build configuration list for PBXProject "SmartSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDCC94E1C8FF44B0026DADD /* Debug */,
+				7CDCC94F1C8FF44B0026DADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDCC9501C8FF44B0026DADD /* Build configuration list for PBXNativeTarget "SmartSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDCC9511C8FF44B0026DADD /* Debug */,
+				7CDCC9521C8FF44B0026DADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CDCC9451C8FF44B0026DADD /* SmartSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CDCC9461C8FF44B0026DADD /* SmartSearch.xcdatamodel */,
+			);
+			currentVersion = 7CDCC9461C8FF44B0026DADD /* SmartSearch.xcdatamodel */;
+			path = SmartSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CDCC92E1C8FF44B0026DADD /* Project object */;
+}
